@@ -4,6 +4,7 @@ import { handlerPath } from '@libs/handler-resolver';
 
 export default {
     handler: `${handlerPath(__dirname)}/handler.main`,
+    timeout: 80,
     events: [
       {
         handlerPath: 'getPerson.main',

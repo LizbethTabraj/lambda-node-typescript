@@ -6,7 +6,7 @@ export const BD = {
     //seteare los valores en duro pero deberian ir en el serveless.ts para que sean jalados como parametros desde aws
     aws_remote_config: {
       accessKeyId: 'x',
-      secretAccessKey: 'x+0+Ap+NBofYWv3G6EEEItp',
+      secretAccessKey: 'x',
       region: 'x',
     }
 };
