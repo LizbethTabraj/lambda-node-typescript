@@ -7,7 +7,7 @@ export default {
     timeout: 80,
     events: [
       {
-        handlerPath: 'getPerson.main',
+        
         http: {
           method: 'get',
           path: 'swapi/person/{id}',
@@ -15,7 +15,7 @@ export default {
         
       },
       {
-        handlerPath: 'get.main',
+        
         http: {
           method: 'get',
           path: 'swapi/people',
@@ -23,7 +23,7 @@ export default {
         },        
       },
       {
-        handlerPath: 'addPerson.main',
+        
         http: {
           method: 'post',
           path: 'cloud/person',
@@ -32,7 +32,7 @@ export default {
         
       },
       {
-        handlerPath: 'addPerson.main',
+        
         http: {
           method: 'get',
           path: 'cloud/people',
